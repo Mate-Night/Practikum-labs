@@ -1,0 +1,3 @@
+C:\Users\ainol\source\repos\Formy\Formy\x64\Debug\Formy.vcxproj.AssemblyReference.cache
+C:\Users\ainol\source\repos\Formy\Formy\x64\Debug\Formy.MyForm.resources
+C:\Users\ainol\source\repos\Formy\Formy\x64\Debug\Formy.vcxproj.GenerateResource.cache

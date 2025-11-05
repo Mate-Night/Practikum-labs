@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1_Show_Filters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 6</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2_Add_clean.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Show_OnlySpacious.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Місткість</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPage1_Add.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBar1_Add_capacity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox1_Show_OnlyFast.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tabPage4_Sort.Name" xml:space="preserve">
+    <value>tabPage4_Sort</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem_Open.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2_Add_Capacity.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="radioButton1_Sort_ByType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3_Add_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 106</value>
+  </data>
+  <data name="exitToolStripMenuItem_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 24</value>
+  </data>
+  <data name="&gt;&gt;tabPage3_Change.Name" xml:space="preserve">
+    <value>tabPage3_Change</value>
+  </data>
+  <data name="&gt;&gt;radioButton4_Sort_BySpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2_Add_Capacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 27</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByDecline.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox2_Change_AutoSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 51</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Items1" xml:space="preserve">
+    <value>Вітрильний</value>
+  </data>
+  <data name="tabPage2_Show.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 375</value>
+  </data>
+  <data name="progressBar1_Add_capacity.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Items4" xml:space="preserve">
+    <value>Прогулянковий</value>
+  </data>
+  <data name="checkBox1_Sort_SaveSortedOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 27</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3_Sort_Result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1_Add_addBoat.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;tabPage4_Sort.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="groupBox1_Change_EditBoatType.Text" xml:space="preserve">
+    <value>Виберіть катер для змін</value>
+  </data>
+  <data name="&gt;&gt;tabPage2_Show.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3_Show_SearchByType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;Capacity.Name" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="tabPage4_Sort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;progressBar1_Add_capacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Sort_SortSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="radioButton2_Sort_ByDecline.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1_Show_BoatAmountStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_Add_Capacity.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="&gt;&gt;button1_Change_SaveAllChanges.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button2_Sort_ToSort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 148</value>
+  </data>
+  <data name="&gt;&gt;label4_Add_progressCapacity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4_Add_progressCapacity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button1_Change_SaveAllChanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox1_Show_OnlyFast.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4_Add_progressCapacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox2_Change_AutoSave.Text" xml:space="preserve">
+    <value>Автозбереження</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_EditBoatType.Name" xml:space="preserve">
+    <value>groupBox1_Change_EditBoatType</value>
+  </data>
+  <data name="button1_Show_ShowAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="label2_Show_LastUpdatedStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="&gt;&gt;Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1_Add_addBoat.Text" xml:space="preserve">
+    <value>Додати катер</value>
+  </data>
+  <data name="&gt;&gt;button1_Show_ShowAll.Name" xml:space="preserve">
+    <value>button1_Show_ShowAll</value>
+  </data>
+  <data name="label1_Show_BoatAmountStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 351</value>
+  </data>
+  <data name="label2_Show_LastUpdatedStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 351</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 54</value>
+  </data>
+  <data name="label4_Add_progressCapacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 260</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Items2" xml:space="preserve">
+    <value>Швидкісний</value>
+  </data>
+  <data name="radioButton4_Sort_BySpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1_Change_EditBoatType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1_Show_FoundNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="&gt;&gt;label_Add_boatType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label3_Add_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridView3_Sort_Result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 187</value>
+  </data>
+  <data name="&gt;&gt;label3_Show_SearchByType.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="label3_Show_SearchByType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3_Add_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 47</value>
+  </data>
+  <data name="dataGridView3_Sort_Result.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_Add_boatType.Name" xml:space="preserve">
+    <value>label_Add_boatType</value>
+  </data>
+  <data name="button1_Change_SaveAllChanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="tabPage3_Change.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 375</value>
+  </data>
+  <data name="groupBox1_Change_EditBoatType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 257</value>
+  </data>
+  <data name="checkBox2_Change_AutoSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2_Sort_WayToSort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Add_boatType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 404</value>
+  </data>
+  <data name="groupBox1_Change_DataChange.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="radioButton1_Sort_ByType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 27</value>
+  </data>
+  <data name="tabPage3_Change.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="checkBox2_Show_OnlySpacious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 23</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_DataChange.Name" xml:space="preserve">
+    <value>groupBox1_Change_DataChange</value>
+  </data>
+  <data name="Speed.HeaderText" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="&gt;&gt;Capacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1_Add_addBoat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 39</value>
+  </data>
+  <data name="label2_Add_Capacity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label_Add_boatType.Text" xml:space="preserve">
+    <value>Тип катера</value>
+  </data>
+  <data name="radioButton2_Sort_ByDecline.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Change_AutoSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButton2_Sort_ByDecline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Items3" xml:space="preserve">
+    <value>Рибальський</value>
+  </data>
+  <data name="label3_Show_SearchByType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <data name="groupBox2_Sort_WayToSort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 135</value>
+  </data>
+  <data name="button2_Show_Search.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Sort_SortSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton2_Sort_ByDecline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 27</value>
+  </data>
+  <data name="&gt;&gt;tabPage1_Add.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="checkBox1_Show_OnlyFast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="checkBox1_Show_OnlyFast.Text" xml:space="preserve">
+    <value>Тільки швидкісні (&gt;50 км/год)</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;label3_Add_Speed.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage4_Sort.Text" xml:space="preserve">
+    <value>Сортувати</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>444, 431</value>
+  </data>
+  <data name="radioButton4_Sort_BySpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 27</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файлик</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Show_Filters.Name" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="&gt;&gt;button1_Show_ShowAll.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="button1_Change_SaveAllChanges.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dataGridView2_Change_BoatList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="&gt;&gt;button1_Add_addBoat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Sort_Speed.Name" xml:space="preserve">
+    <value>Sort_Speed</value>
+  </data>
+  <data name="&gt;&gt;button1_Add_addBoat.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="groupBox1_Change_EditBoatType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 6</value>
+  </data>
+  <data name="&gt;&gt;tabPage3_Change.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="checkBox1_Sort_SaveSortedOrder.Text" xml:space="preserve">
+    <value>Зберегти порядок</value>
+  </data>
+  <data name="dataGridView2_Change_BoatList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_Add_boatType.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="button2_Add_clean.Text" xml:space="preserve">
+    <value>Очистити</value>
+  </data>
+  <data name="&gt;&gt;Speed.Name" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="radioButton2_Sort_ByCapacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 27</value>
+  </data>
+  <data name="groupBox1_Show_Filters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="groupBox1_Change_DataChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 111</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_FoundNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2_Add_Capacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 73</value>
+  </data>
+  <data name="radioButton1_Sort_ByGrowth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage3_Change.Text" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="openToolStripMenuItem_Open.Text" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="dataGridView2_Change_BoatList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 224</value>
+  </data>
+  <data name="&gt;&gt;label3_Add_Speed.Name" xml:space="preserve">
+    <value>label3_Add_Speed</value>
+  </data>
+  <data name="&gt;&gt;button2_Show_Search.Name" xml:space="preserve">
+    <value>button2_Show_Search</value>
+  </data>
+  <data name="label3_Add_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="&gt;&gt;label_Add_boatType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2_Show_Search.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_Add_Capacity.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3_Show_SearchByType.Text" xml:space="preserve">
+    <value>Пошук за типом</value>
+  </data>
+  <data name="label2_Add_Capacity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="numericUpDown2_Add_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 113</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Change_AutoSave.Parent" xml:space="preserve">
+    <value>groupBox1_Change_DataChange</value>
+  </data>
+  <data name="&gt;&gt;label2_Show_LastUpdatedStatus.Name" xml:space="preserve">
+    <value>label2_Show_LastUpdatedStatus</value>
+  </data>
+  <data name="&gt;&gt;label2_Add_Capacity.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="&gt;&gt;label2_Show_LastUpdatedStatus.Parent" xml:space="preserve">
+    <value>tabPage2_Show</value>
+  </data>
+  <data name="label4_Add_progressCapacity.Text" xml:space="preserve">
+    <value>Заповнено: 0/0</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3_Sort_Result.Name" xml:space="preserve">
+    <value>dataGridView3_Sort_Result</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox2_Sort_WayToSort.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericUpDown2_Add_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Sort_SortSettings.Parent" xml:space="preserve">
+    <value>tabPage4_Sort</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Change_AutoSave.Name" xml:space="preserve">
+    <value>checkBox2_Change_AutoSave</value>
+  </data>
+  <data name="radioButton1_Sort_ByType.Text" xml:space="preserve">
+    <value>За типом</value>
+  </data>
+  <data name="groupBox1_Show_Filters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 140</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox2_Show_OnlySpacious.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 23</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPage3_Change.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Show_OnlyFast.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_BoatAmountStatus.Parent" xml:space="preserve">
+    <value>tabPage2_Show</value>
+  </data>
+  <data name="groupBox1_Sort_SortSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 135</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Sort_SaveSortedOrder.Name" xml:space="preserve">
+    <value>checkBox1_Sort_SaveSortedOrder</value>
+  </data>
+  <data name="label2_Show_LastUpdatedStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Add_boatType.Name" xml:space="preserve">
+    <value>comboBox1_Add_boatType</value>
+  </data>
+  <data name="&gt;&gt;button1_Change_SaveAllChanges.Parent" xml:space="preserve">
+    <value>groupBox1_Change_DataChange</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 152</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByGrowth.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Show_OnlyFast.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBox1_Sort_SaveSortedOrder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_DataChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2_Add_clean.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
+    <value>radioButton3</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Show_SearchByType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Items4" xml:space="preserve">
+    <value>Прогулянковий</value>
+  </data>
+  <data name="groupBox1_Sort_SortSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage3_Change.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 193</value>
+  </data>
+  <data name="button2_Add_clean.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox1_Change_EditBoatType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Sort_Type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown1_Add_Capacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Show_OnlyFast.Name" xml:space="preserve">
+    <value>checkBox1_Show_OnlyFast</value>
+  </data>
+  <data name="&gt;&gt;tabPage4_Sort.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Items5" xml:space="preserve">
+    <value>Спортивний</value>
+  </data>
+  <data name="&gt;&gt;tabPage2_Show.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 90</value>
+  </data>
+  <data name="groupBox2_Sort_WayToSort.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Sort_SaveSortedOrder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1_Show_BoatAmountStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt, style=Bold</value>
+  </data>
+  <data name="openToolStripMenuItem_Open.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 24</value>
+  </data>
+  <data name="checkBox2_Change_AutoSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 27</value>
+  </data>
+  <data name="button2_Sort_ToSort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="label4_Add_progressCapacity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Capacity.HeaderText" xml:space="preserve">
+    <value>Місткість</value>
+  </data>
+  <data name="groupBox1_Show_Filters.Text" xml:space="preserve">
+    <value>Фільтри</value>
+  </data>
+  <data name="&gt;&gt;groupBox2_Sort_WayToSort.Parent" xml:space="preserve">
+    <value>tabPage4_Sort</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Items" xml:space="preserve">
+    <value>Моторний</value>
+  </data>
+  <data name="radioButton1_Sort_ByType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage4_Sort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 375</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button2_Sort_ToSort.Text" xml:space="preserve">
+    <value>Сортувати</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Sort_SortSettings.Name" xml:space="preserve">
+    <value>groupBox1_Sort_SortSettings</value>
+  </data>
+  <data name="tabPage1_Add.Text" xml:space="preserve">
+    <value>Додати</value>
+  </data>
+  <data name="&gt;&gt;radioButton4_Sort_BySpeed.Parent" xml:space="preserve">
+    <value>groupBox1_Sort_SortSettings</value>
+  </data>
+  <data name="&gt;&gt;groupBox2_Sort_WayToSort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3_Change.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2_Add_Capacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1_Show_BoatAmountStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Sort_Capacity.Name" xml:space="preserve">
+    <value>Sort_Capacity</value>
+  </data>
+  <data name="button1_Show_ShowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 39</value>
+  </data>
+  <data name="&gt;&gt;button2_Sort_ToSort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Show_OnlySpacious.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton2_Sort_ByCapacity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="label1_Show_FoundNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 111</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_BoatAmountStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem_Exit.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem_Exit</value>
+  </data>
+  <data name="radioButton2_Sort_ByCapacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 63</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Show_Filters.Parent" xml:space="preserve">
+    <value>tabPage2_Show</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByGrowth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2_Show_LastUpdatedStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt, style=Bold</value>
+  </data>
+  <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label3_Show_SearchByType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="checkBox2_Show_OnlySpacious.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2_Show_LastUpdatedStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage1_Add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Items2" xml:space="preserve">
+    <value>Швидкісний</value>
+  </data>
+  <data name="checkBox1_Sort_SaveSortedOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 99</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="numericUpDown2_Add_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button2_Add_clean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 39</value>
+  </data>
+  <data name="radioButton1_Sort_ByType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 30</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2_Change_BoatList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Show_Filters.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_EditBoatType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2_Add_Capacity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1_Change_DataChange.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label4_Add_progressCapacity.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="button1_Show_ShowAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 95</value>
+  </data>
+  <data name="&gt;&gt;Type.Name" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="label3_Add_Speed.Text" xml:space="preserve">
+    <value>Швидкість (км/год)</value>
+  </data>
+  <data name="&gt;&gt;button1_Show_ShowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2_Show_Search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 95</value>
+  </data>
+  <data name="tabPage2_Show.Text" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="label_Add_boatType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button1_Change_SaveAllChanges.Name" xml:space="preserve">
+    <value>button1_Change_SaveAllChanges</value>
+  </data>
+  <data name="&gt;&gt;label3_Show_SearchByType.Name" xml:space="preserve">
+    <value>label3_Show_SearchByType</value>
+  </data>
+  <data name="radioButton1_Sort_ByGrowth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Change_AutoSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1_Show_FoundNotes.Text" xml:space="preserve">
+    <value>Знайдено: </value>
+  </data>
+  <data name="radioButton1_Sort_ByGrowth.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2_Sort_WayToSort.Text" xml:space="preserve">
+    <value>Напрямок</value>
+  </data>
+  <data name="&gt;&gt;tabPage4_Sort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_Add_boatType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 41</value>
+  </data>
+  <data name="groupBox1_Sort_SortSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="numericUpDown1_Add_Capacity.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2_Show_LastUpdatedStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByDecline.Name" xml:space="preserve">
+    <value>radioButton2_Sort_ByDecline</value>
+  </data>
+  <data name="button2_Add_clean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 181</value>
+  </data>
+  <data name="&gt;&gt;label3_Show_SearchByType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sort_Type.Name" xml:space="preserve">
+    <value>Sort_Type</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Show_OnlyFast.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="exitToolStripMenuItem_Exit.Text" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="saveToolStripMenuItem_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 24</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;button1_Add_addBoat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage2_Show.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button2_Sort_ToSort.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button1_Change_SaveAllChanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 34</value>
+  </data>
+  <data name="&gt;&gt;progressBar1_Add_capacity.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MyForm</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByType.Name" xml:space="preserve">
+    <value>radioButton1_Sort_ByType</value>
+  </data>
+  <data name="label3_Add_Speed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="label4_Add_progressCapacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 27</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 27</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Show_SearchByType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3_Show_SearchByType.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Show_OnlySpacious.Name" xml:space="preserve">
+    <value>checkBox2_Show_OnlySpacious</value>
+  </data>
+  <data name="radioButton2_Sort_ByDecline.Text" xml:space="preserve">
+    <value>За спаданням</value>
+  </data>
+  <data name="&gt;&gt;label4_Add_progressCapacity.Name" xml:space="preserve">
+    <value>label4_Add_progressCapacity</value>
+  </data>
+  <data name="&gt;&gt;tabPage2_Show.Name" xml:space="preserve">
+    <value>tabPage2_Show</value>
+  </data>
+  <data name="radioButton1_Sort_ByGrowth.Text" xml:space="preserve">
+    <value>За зростанням</value>
+  </data>
+  <data name="&gt;&gt;Sort_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="button1_Show_ShowAll.Text" xml:space="preserve">
+    <value>Показати всі</value>
+  </data>
+  <data name="checkBox1_Show_OnlyFast.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Add_boatType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton4_Sort_BySpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton4_Sort_BySpeed.Text" xml:space="preserve">
+    <value>За швидкістю</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem_Save.Name" xml:space="preserve">
+    <value>saveToolStripMenuItem_Save</value>
+  </data>
+  <data name="button1_Add_addBoat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold</value>
+  </data>
+  <data name="label_Add_boatType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 27</value>
+  </data>
+  <data name="radioButton4_Sort_BySpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 96</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Видалити вибраний</value>
+  </data>
+  <data name="button1_Change_SaveAllChanges.Text" xml:space="preserve">
+    <value>Зберегти всі зміни</value>
+  </data>
+  <data name="checkBox2_Show_OnlySpacious.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;radioButton4_Sort_BySpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDown2_Add_Speed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="dataGridView3_Sort_Result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_FoundNotes.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_Add_Capacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3_Sort_Result.Parent" xml:space="preserve">
+    <value>tabPage4_Sort</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>tabPage2_Show</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_DataChange.Parent" xml:space="preserve">
+    <value>tabPage3_Change</value>
+  </data>
+  <data name="button2_Sort_ToSort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 32</value>
+  </data>
+  <data name="&gt;&gt;button2_Add_clean.Name" xml:space="preserve">
+    <value>button2_Add_clean</value>
+  </data>
+  <data name="label3_Add_Speed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button2_Show_Search.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2_Change_BoatList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Items1" xml:space="preserve">
+    <value>Вітрильний</value>
+  </data>
+  <data name="button2_Show_Search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 39</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem_Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_DataChange.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2_Show_LastUpdatedStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage2_Show.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByCapacity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+    <value>groupBox1_Sort_SortSettings</value>
+  </data>
+  <data name="&gt;&gt;button1_Add_addBoat.Name" xml:space="preserve">
+    <value>button1_Add_addBoat</value>
+  </data>
+  <data name="label_Add_boatType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByType.Parent" xml:space="preserve">
+    <value>groupBox1_Sort_SortSettings</value>
+  </data>
+  <data name="radioButton2_Sort_ByCapacity.Text" xml:space="preserve">
+    <value>За місткістю</value>
+  </data>
+  <data name="button2_Show_Search.Text" xml:space="preserve">
+    <value>Шукати</value>
+  </data>
+  <data name="&gt;&gt;tabPage1_Add.Name" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="tabPage2_Show.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2_Sort_WayToSort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 7</value>
+  </data>
+  <data name="checkBox1_Show_OnlyFast.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 19</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Show_Filters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 27</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByCapacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage4_Sort.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BoatManager Simulator</value>
+  </data>
+  <data name="checkBox2_Show_OnlySpacious.Text" xml:space="preserve">
+    <value>Тільки великі (&gt;10 осіб)</value>
+  </data>
+  <data name="Type.HeaderText" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="label4_Add_progressCapacity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2_Sort_ToSort.Name" xml:space="preserve">
+    <value>button2_Sort_ToSort</value>
+  </data>
+  <data name="&gt;&gt;button2_Add_clean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2_Sort_WayToSort.Name" xml:space="preserve">
+    <value>groupBox2_Sort_WayToSort</value>
+  </data>
+  <data name="&gt;&gt;label3_Add_Speed.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;radioButton4_Sort_BySpeed.Name" xml:space="preserve">
+    <value>radioButton4_Sort_BySpeed</value>
+  </data>
+  <data name="numericUpDown1_Add_Capacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 80</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Items5" xml:space="preserve">
+    <value>Спортивний</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Show_SearchByType.Name" xml:space="preserve">
+    <value>comboBox1_Show_SearchByType</value>
+  </data>
+  <data name="comboBox1_Add_boatType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="&gt;&gt;tabPage2_Show.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3_Show_SearchByType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Sort_Capacity.HeaderText" xml:space="preserve">
+    <value>Місткість</value>
+  </data>
+  <data name="&gt;&gt;tabPage1_Add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2_Change_BoatList.Parent" xml:space="preserve">
+    <value>groupBox1_Change_EditBoatType</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Show_SearchByType.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem_Open.Name" xml:space="preserve">
+    <value>openToolStripMenuItem_Open</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="groupBox1_Show_Filters.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByCapacity.Parent" xml:space="preserve">
+    <value>groupBox1_Sort_SortSettings</value>
+  </data>
+  <data name="groupBox1_Sort_SortSettings.Text" xml:space="preserve">
+    <value>Критерій сортування</value>
+  </data>
+  <data name="saveToolStripMenuItem_Save.Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="tabPage3_Change.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_Add_boatType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;comboBox1_Add_boatType.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="button2_Show_Search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="radioButton1_Sort_ByGrowth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 27</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox1_Change_DataChange</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByGrowth.Name" xml:space="preserve">
+    <value>radioButton1_Sort_ByGrowth</value>
+  </data>
+  <data name="groupBox1_Change_DataChange.Text" xml:space="preserve">
+    <value>Дії</value>
+  </data>
+  <data name="label1_Show_BoatAmountStatus.Text" xml:space="preserve">
+    <value>Всього катерів: 0</value>
+  </data>
+  <data name="numericUpDown1_Add_Capacity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="progressBar1_Add_capacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 290</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByCapacity.Name" xml:space="preserve">
+    <value>radioButton2_Sort_ByCapacity</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Sort_SaveSortedOrder.Parent" xml:space="preserve">
+    <value>groupBox2_Sort_WayToSort</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1_Add_Capacity.Name" xml:space="preserve">
+    <value>numericUpDown1_Add_Capacity</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2_Change_BoatList.Name" xml:space="preserve">
+    <value>dataGridView2_Change_BoatList</value>
+  </data>
+  <data name="groupBox1_Sort_SortSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 7</value>
+  </data>
+  <data name="&gt;&gt;label2_Add_Capacity.Name" xml:space="preserve">
+    <value>label2_Add_Capacity</value>
+  </data>
+  <data name="label2_Show_LastUpdatedStatus.Text" xml:space="preserve">
+    <value>Оновлено: 00:00</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 34</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2_Add_Speed.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2_Add_Speed.Name" xml:space="preserve">
+    <value>numericUpDown2_Add_Speed</value>
+  </data>
+  <data name="button1_Show_ShowAll.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Sort_Speed.HeaderText" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="label1_Show_FoundNotes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button2_Add_clean.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2_Add_Speed.Parent" xml:space="preserve">
+    <value>tabPage1_Add</value>
+  </data>
+  <data name="&gt;&gt;progressBar1_Add_capacity.Name" xml:space="preserve">
+    <value>progressBar1_Add_capacity</value>
+  </data>
+  <data name="&gt;&gt;button1_Show_ShowAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPage1_Add.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Sort_Capacity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_FoundNotes.Name" xml:space="preserve">
+    <value>label1_Show_FoundNotes</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1_Sort_SaveSortedOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage1_Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 375</value>
+  </data>
+  <data name="tabPage1_Add.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_BoatAmountStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1_Show_BoatAmountStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="progressBar1_Add_capacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 25</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_EditBoatType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox2_Show_OnlySpacious.Parent" xml:space="preserve">
+    <value>groupBox1_Show_Filters</value>
+  </data>
+  <data name="checkBox1_Sort_SaveSortedOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1_Change_EditBoatType.Parent" xml:space="preserve">
+    <value>tabPage3_Change</value>
+  </data>
+  <data name="&gt;&gt;radioButton1_Sort_ByGrowth.Parent" xml:space="preserve">
+    <value>groupBox2_Sort_WayToSort</value>
+  </data>
+  <data name="button1_Add_addBoat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 181</value>
+  </data>
+  <data name="&gt;&gt;button2_Sort_ToSort.Parent" xml:space="preserve">
+    <value>tabPage4_Sort</value>
+  </data>
+  <data name="&gt;&gt;button2_Sort_ToSort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_FoundNotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton2_Sort_ByCapacity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage4_Sort.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByDecline.Parent" xml:space="preserve">
+    <value>groupBox2_Sort_WayToSort</value>
+  </data>
+  <data name="Sort_Type.HeaderText" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="&gt;&gt;button2_Show_Search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1_Add_boatType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown2_Add_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Items" xml:space="preserve">
+    <value>Моторний</value>
+  </data>
+  <data name="checkBox2_Change_AutoSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2_Add_Capacity.Text" xml:space="preserve">
+    <value>Місткість (осіб)</value>
+  </data>
+  <data name="&gt;&gt;radioButton2_Sort_ByDecline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1_Show_BoatAmountStatus.Name" xml:space="preserve">
+    <value>label1_Show_BoatAmountStatus</value>
+  </data>
+  <data name="label1_Show_FoundNotes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 12pt, style=Bold</value>
+  </data>
+  <data name="radioButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1_Show_FoundNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView3_Sort_Result.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBox1_Show_SearchByType.Items3" xml:space="preserve">
+    <value>Рибальський</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 68</value>
+  </data>
+  <data name="checkBox2_Show_OnlySpacious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 38</value>
+  </data>
+  <data name="groupBox1_Change_DataChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 259</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9pt, style=Bold</value>
+  </data>
+  <metadata name="Capacity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>uk-UA</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>271, 17</value>
+  </metadata>
+  <metadata name="Sort_Capacity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Sort_Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Sort_Speed.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Speed.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

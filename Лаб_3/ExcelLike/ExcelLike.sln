@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExcelLike", "ExcelLike\ExcelLike.vcxproj", "{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Debug|x64.ActiveCfg = Debug|x64
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Debug|x64.Build.0 = Debug|x64
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Debug|x86.Build.0 = Debug|Win32
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Release|x64.ActiveCfg = Release|x64
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Release|x64.Build.0 = Release|x64
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Release|x86.ActiveCfg = Release|Win32
+		{AC2B8D9D-BC57-DDDF-2082-B19BDA3162B7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {639FAC71-8E70-4314-A98A-627EEC606537}
+	EndGlobalSection
+EndGlobal

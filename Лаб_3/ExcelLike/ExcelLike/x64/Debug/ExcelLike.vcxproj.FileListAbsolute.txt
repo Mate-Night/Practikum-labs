@@ -1,0 +1,3 @@
+C:\Users\ainol\source\repos\ExcelLike\ExcelLike\x64\Debug\ExcelLike.vcxproj.AssemblyReference.cache
+C:\Users\ainol\source\repos\ExcelLike\ExcelLike\x64\Debug\ExcelLike.MyForm.resources
+C:\Users\ainol\source\repos\ExcelLike\ExcelLike\x64\Debug\ExcelLike.vcxproj.GenerateResource.cache

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-38dedaca6a8627297dd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TimeToCalculate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TimeToCalculate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TimeToCalculate-Debug-c87cdc4d5fbeac487e7e.json",
+					"name" : "TimeToCalculate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TimeToCalculate_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TimeToCalculate_autogen-Debug-d8d37fb696a7c39a155b.json",
+					"name" : "TimeToCalculate_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TimeToCalculate_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TimeToCalculate_autogen_timestamp_deps-Debug-221864775f009a1afb45.json",
+					"name" : "TimeToCalculate_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ainol/Documents/TimeToCalculate/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/ainol/Documents/TimeToCalculate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

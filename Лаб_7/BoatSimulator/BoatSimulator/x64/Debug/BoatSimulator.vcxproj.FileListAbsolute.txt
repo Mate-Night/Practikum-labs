@@ -1,0 +1,4 @@
+C:\Users\ainol\source\repos\BoatSimulator\BoatSimulator\x64\Debug\BoatSimulator.vcxproj.AssemblyReference.cache
+C:\Users\ainol\source\repos\BoatSimulator\BoatSimulator\x64\Debug\BoatSimulator.MyForm.resources
+C:\Users\ainol\source\repos\BoatSimulator\BoatSimulator\x64\Debug\BoatSimulator.vcxproj.GenerateResource.cache
+C:\Users\ainol\source\repos\BoatSimulator\BoatSimulator\x64\Debug\BoatSimulator.MyForm.uk-UA.resources

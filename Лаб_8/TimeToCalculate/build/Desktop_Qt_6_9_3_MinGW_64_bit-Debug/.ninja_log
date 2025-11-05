@@ -1,0 +1,15 @@
+# ninja log v6
+14	182	7836199594380034	TimeToCalculate_autogen/timestamp	b2f79cba4e4e6153
+14	182	7836199594380034	TimeToCalculate_autogen/mocs_compilation.cpp	b2f79cba4e4e6153
+2390	2599	7836199618139217	TimeToCalculate.exe	59dd1efa7f66323c
+14	182	7836199594380034	C:/Users/ainol/Documents/TimeToCalculate/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/TimeToCalculate_autogen/timestamp	b2f79cba4e4e6153
+183	2390	7836199596061496	CMakeFiles/TimeToCalculate.dir/mainwindow.cpp.obj	5d82385d7f953c8d
+710	2893	7836165284548885	CMakeFiles/TimeToCalculate.dir/main.cpp.obj	6e6f79278adc269f
+14	182	7836199594380034	C:/Users/ainol/Documents/TimeToCalculate/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/TimeToCalculate_autogen/mocs_compilation.cpp	b2f79cba4e4e6153
+706	2847	7836165284518083	CMakeFiles/TimeToCalculate.dir/TimeToCalculate_autogen/mocs_compilation.cpp.obj	cb748823ce138ed8
+13	171	7836203125684659	TimeToCalculate_autogen/timestamp	b2f79cba4e4e6153
+13	171	7836203125684659	TimeToCalculate_autogen/mocs_compilation.cpp	b2f79cba4e4e6153
+13	171	7836203125684659	C:/Users/ainol/Documents/TimeToCalculate/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/TimeToCalculate_autogen/timestamp	b2f79cba4e4e6153
+13	171	7836203125684659	C:/Users/ainol/Documents/TimeToCalculate/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/TimeToCalculate_autogen/mocs_compilation.cpp	b2f79cba4e4e6153
+172	2098	7836203127272492	CMakeFiles/TimeToCalculate.dir/mainwindow.cpp.obj	5d82385d7f953c8d
+2098	2280	7836203146537021	TimeToCalculate.exe	59dd1efa7f66323c

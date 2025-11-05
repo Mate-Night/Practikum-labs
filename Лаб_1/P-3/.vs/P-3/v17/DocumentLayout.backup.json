@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ainol\\source\\repos\\P-3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE2E043-BA46-A554-C27C-D764B2D29CF4}|P-3\\P-3.vcxproj|C:\\Users\\ainol\\source\\repos\\P-3\\P-3\\P-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AAE2E043-BA46-A554-C27C-D764B2D29CF4}|P-3\\P-3.vcxproj|solutionrelative:P-3\\P-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P-3.cpp",
+              "DocumentMoniker": "C:\\Users\\ainol\\source\\repos\\P-3\\P-3\\P-3.cpp",
+              "RelativeDocumentMoniker": "P-3\\P-3.cpp",
+              "ToolTip": "C:\\Users\\ainol\\source\\repos\\P-3\\P-3\\P-3.cpp",
+              "RelativeToolTip": "P-3\\P-3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-06T09:36:20.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
