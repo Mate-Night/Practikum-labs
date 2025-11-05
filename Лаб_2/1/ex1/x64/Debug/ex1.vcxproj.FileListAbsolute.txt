@@ -1,0 +1,6 @@
+C:\Users\malyt\source\repos\ex1\ex1\x64\Debug\ex1.vcxproj.AssemblyReference.cache
+C:\Users\malyt\source\repos\ex1\ex1\x64\Debug\ex1.MyForm.resources
+C:\Users\malyt\source\repos\ex1\ex1\x64\Debug\ex1.vcxproj.GenerateResource.cache
+C:\Users\ainol\source\repos\1\ex1\x64\Debug\ex1.vcxproj.AssemblyReference.cache
+C:\Users\ainol\source\repos\1\ex1\x64\Debug\ex1.MyForm.resources
+C:\Users\ainol\source\repos\1\ex1\x64\Debug\ex1.vcxproj.GenerateResource.cache

@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ExcelLikeRecall.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MyForm.cpp
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ExcelLike.vcxproj -> C:\Users\ainol\source\repos\ExcelLikeRecall\x64\Debug\ExcelLikeRecallRecall.exe

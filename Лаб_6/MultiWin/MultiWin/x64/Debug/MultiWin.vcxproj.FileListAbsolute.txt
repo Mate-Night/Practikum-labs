@@ -1,0 +1,3 @@
+C:\Users\ainol\source\repos\MultiWin\MultiWin\x64\Debug\MultiWin.vcxproj.AssemblyReference.cache
+C:\Users\ainol\source\repos\MultiWin\MultiWin\x64\Debug\MultiWin.MyForm.resources
+C:\Users\ainol\source\repos\MultiWin\MultiWin\x64\Debug\MultiWin.vcxproj.GenerateResource.cache
